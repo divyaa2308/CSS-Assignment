@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: auto;
+            width: 60%;
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+            margin-top: 50px;
+            margin-left: 200px; */
+        }
+
+
+        .one {
+            display: flex;
+            flex-wrap: wrap;
+          
+        }
+
+        .header {
+            height: 30px;
+            width: 200px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        .menu {
+            height: 30px;
+            width: 511px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        .hero {
+            height: 400px;
+            width: 711px;
+            background-color: rgb(28, 105, 227);
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .three {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .main {
+            height: 150px;
+            width: 356px;
+            background-color: darkblue;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .blank {
+            height: 150px;
+            width: 178px;
+            background-color: white;
+        }
+
+        .img-extra {
+            height: 75px;
+            width: 178px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .image {
+            height: 75px;
+            width: 178px;
+            background-color: rgb(139, 234, 229);
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .extra {
+            height: 75px;
+            width: 178px;
+            background-color: rgb(3, 150, 143);
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner {
+            height: 75px;
+            width: 711px;
+            background-color: rgb(255, 213, 0);
+            font-size: 30px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media only screen and(max-width:600px) {
+
+
+            .one {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            .three {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+
+            }
+
+            .img-extra {
+                height: 75px;
+                width: 500px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            .banner {
+                height: 75px;
+                width: 1000px;
+                background-color: rgb(255, 213, 0);
+                font-size: 30px;
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .blank {
+            height: 150px;
+            width: 250px;
+            background-color: white;
+            display: none;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="one">
+            <div class="header">HEADER</div>
+            <div class="menu">MENU</div>
+        </div>
+        <div class="two">
+            <div class="hero">HERO</div>
+        </div>
+        <div class="three">
+            <div class="main">MAIN</div>
+            <div class="blank"></div>
+            <div class="img-extra">
+                <div class="image">IMAGE</div>
+                <div class="extra">EXTRA</div>
+            </div>
+
+        </div>
+        <div class="four">
+            <div class="banner">BANNER</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
